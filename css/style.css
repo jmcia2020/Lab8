@@ -1,0 +1,22 @@
+header{    
+    background-color:black;
+    text-align: center;
+    color:rgb(236, 191, 41);
+}
+aside
+{
+    float: left;
+    background-color: cornsilk;
+}
+
+main {    
+
+    float:right;
+    margin-top: 0;
+    width:80%;
+}
+footer {
+    clear:both;
+    text-align: left ;
+    position: relative;
+}
