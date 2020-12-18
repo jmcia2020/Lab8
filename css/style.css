@@ -1,7 +1,8 @@
 header{    
-    background-color:black;
-    text-align: center;
-    color:rgb(236, 191, 41);    
+    background-color:black; height: 100px;
+    text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    color:#f1b417;    
 }
 
 body{background-color: blanchedalmond;}
@@ -32,7 +33,7 @@ img{
 }
 
 .button {
-    background-color: #51bbbe; /* Green */
+    background-color: ##60c2cf; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;

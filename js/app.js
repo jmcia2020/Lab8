@@ -1,6 +1,6 @@
 console.log('this is the app js connected');
 
-var userName = prompt('Please enter your first name.');
+var userName = prompt('What is your name.');
 alert('Hello ' + userName + ', click ok to go to page.');
 
     if(userName === 'Craig' || userName === 'Yo'){
