@@ -1,3 +1,5 @@
+console.log('this is the app js connected');
+
 var userName = prompt('Please enter your first name.');
 alert('Hello ' + userName + ', click ok to go to page.');
 
