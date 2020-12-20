@@ -11,8 +11,7 @@ body{
 
 
 aside{ 
-    float:left;
-    height: 100%;
+    float:left; height: 100%;
     padding-right: 5px;
     background-color:#f1b417;    
 }
