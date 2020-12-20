@@ -1,45 +1,41 @@
 header{    
     background-color:black; height: 100px;
-    text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
     padding-top: 20px;
     color:#f1b417;    
 }
 
-body{background-color: blanchedalmond;}
-
-
-aside
-{
-    float: left;
-    background-color: cornsilk;
+body{
+    background-color: blanchedalmond;
 }
 
-main {    
 
-    float:right;
-    margin-top: 0;
-    width:80%;
+aside{ 
+    float:left;
+    height: 100%;
+    padding-right: 5px;
+    background-color:#f1b417;    
 }
-footer {
+
+footer{
     clear:both;
-    text-align: left ;
+    color: blanchedalmond;
+    text-align: center;
     position: relative;
+    background-color: black;
 }
 
 img{  
-
-    height: 400px; width: 900px
-
+    height: 400px; width: 800px;
 }
 
-.button {
-    background-color: ##60c2cf; /* Green */
+.button{
+    background-color: #60c2cf;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
   }
   

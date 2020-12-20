@@ -1,25 +1,13 @@
 console.log('this is the app js connected');
 
 var userName = prompt('What is your name.');
-alert('Hello ' + userName + ', click ok to go to page.');
-console.log ()
-
-
-    if(userName === 'Craig' || userName === 'Yo'){
-      alert('Hello ' + userName + ', click ok to go to YO YO  page.');
-      // || or && and 
-    } else if (userName === 'Bob' && userName === ' Smith'){
-      alert('Hello ' + userName + ', click BOb BOB ok to go to page.');
+  
+var deltaTeam = prompt('Hello ' + userName + '! Are you a developer?').trim().toUpperCase();
+  console.log(deltaTeam);
+    if(deltaTeam === 'N' || deltaTeam === 'NO'){
+      alert('You should go to DeltaV!!!');
+    } else if (deltaTeam === 'Y' || deltaTeam === 'YES'){
+      alert('I bet you learned at DeltaV!');
     } else {
-      alert('Hello ' + userName + ', click ok to go to page.');
-    }
-
-    var favoriteFood = prompt('Is Pizza your favorite food.').trim();
-  console.log(favoriteFood);
-    if(favoriteFood === 'N' || favoriteFood === 'No'){
-      alert('Are you sure? Have you even tried it?');
-    } else if (favoriteFood === 'Y' || favoriteFood === 'Yes'){
-      alert('Yes Pizza is my favorite too....');
-    } else {
-      alert('Please go eat pizza.');
+      alert("I don't think you understand Booleans.");
     }
