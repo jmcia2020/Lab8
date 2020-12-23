@@ -9,10 +9,18 @@ body{
     background-color: blanchedalmond;
 }
 
-
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-size-adjust: 16vw;
+}
 aside{ 
-    float:left; height: 100%;
-    padding-right: 5px;
+    float:left; 
+    width: 15%;
+    /* height: 100%; */
+    /* padding-right: 5px; */
     background-color:#f1b417;    
 }
 
@@ -24,8 +32,12 @@ footer{
     background-color: black;
 }
 
-img{  
-    height: 300px; width: 600px;
+img
+{  
+    float: left;
+    width: 83%;
+    height: auto;
+    /* height: 300px; width: 600px; */
 }
 
 .button{
